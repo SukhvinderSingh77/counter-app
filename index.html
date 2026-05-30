@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Counter App</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <!-- COUNTER APP -->
+        <header>
+            <h1 class="heading">
+                <a class="logo-link" href="./index.html">Counter App</a>
+            </h1>
+        </header>
+        <main>
+            <div class="wrapper">
+                <div class="counter-wrapper">
+                    <div class="counter">
+                        <p id="count">0</p>
+                    </div>
+                </div>
+                <div class="counter-action">
+                    <button id="increase" onclick="increaseCount()">+</button>
+                    <button id="reset" onclick="resetCount()">Reset</button>
+                    <button id="decrease" onclick="decreaseCount()">-</button>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>All rights reserved. <a href="./index.html">Counter App</a></p>
+        </footer>
+    </body>
+    <script src="./script.js"></script>
+</html>
